@@ -83,8 +83,8 @@ Amazon S3 is an object storage service provided by AWS. In this experiment, AWS 
 ### 🔹 Step 5: Create S3 Buckets
 
 * Created two S3 buckets using:
-  aws s3 mb s3://lakshmiprasanna-s3-bucket-1 --region ap-south-1
-  aws s3 mb s3://lakshmiprasanna-s3-bucket-2 --region ap-south-1
+  * aws s3 mb s3://lakshmiprasanna-s3-bucket-1 --region ap-south-1
+  * aws s3 mb s3://lakshmiprasanna-s3-bucket-2 --region ap-south-1
 
 * Ensured bucket names are unique
 
@@ -100,8 +100,8 @@ Amazon S3 is an object storage service provided by AWS. In this experiment, AWS 
 ### 🔹 Step 7: Delete S3 Buckets
 
 * Deleted buckets using:
-  aws s3 rb s3://lakshmiprasanna-s3-bucket-1 --force
-  aws s3 rb s3://lakshmiprasanna-s3-bucket-2 --force
+  * aws s3 rb s3://lakshmiprasanna-s3-bucket-1 --force
+  * aws s3 rb s3://lakshmiprasanna-s3-bucket-2 --force
 
 ---
 
