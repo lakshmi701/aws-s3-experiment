@@ -34,6 +34,10 @@ Amazon S3 is an object storage service provided by AWS. In this experiment, AWS 
 * Downloaded and installed AWS CLI on the local system.
 
 ---
+###  AWS CLI Version screenshot
+![Version](step1-version.png)
+
+---
 
 ### 🔹 Step 2: Configure AWS CLI
 
@@ -79,6 +83,10 @@ Amazon S3 is an object storage service provided by AWS. In this experiment, AWS 
   * Output format: json
 
 ---
+###  AWS Configure screenshot
+![Config](step2-config.png)
+
+---
 
 ### 🔹 Step 5: Create S3 Buckets
 
@@ -89,11 +97,19 @@ Amazon S3 is an object storage service provided by AWS. In this experiment, AWS 
 * Ensured bucket names are unique
 
 ---
+### Create Buckets screenshot
+![Create](step3-create.png)
+
+---
 
 ### 🔹 Step 6: Verify Buckets
 
 * Checked whether buckets are created using:
   aws s3 ls
+
+---
+### List Buckets screenshot
+![List](step4-list.png)
 
 ---
 
@@ -104,6 +120,10 @@ Amazon S3 is an object storage service provided by AWS. In this experiment, AWS 
   * aws s3 rb s3://lakshmiprasanna-s3-bucket-2 --force
 
 ---
+### Delete Buckets screenshot
+![Delete](step5-delete.png)
+
+---
 
 ### 🔹 Step 8: Verify Deletion
 
@@ -111,6 +131,10 @@ Amazon S3 is an object storage service provided by AWS. In this experiment, AWS 
   aws s3 ls
 
 * Confirmed buckets are deleted
+
+---
+### Final Verification screenshot
+![Final](step6-final.png)
 
 ---
 
